@@ -3,7 +3,7 @@
 namespace TernaryAndAccessModifier {
     class Program {
         static void Main(string[] args) {
-            Console.WriteLine($"The cube of 17 is {Cubed(17)}.");
+            //Console.WriteLine($"The cube of 17 is {Cubed(17)}.");
             Console.WriteLine($"Next Id is {Customer.PrintNextId()}."); //PrintNextId is static so it will only ever show 1. 
 
             var cust1 = new Customer("Max Technical Training");

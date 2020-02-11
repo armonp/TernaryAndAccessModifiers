@@ -17,8 +17,8 @@ namespace TernaryAndAccessModifier {
             var order2 = new Order { Amount = 2000, Customer = cust2 };
         }
 
-        static int Cubed(int nbr) {
-            return nbr * nbr * nbr;
-        }
+        //static int Cubed(int nbr) {
+        //    return nbr * nbr * nbr;
+        //}
     }
 }
